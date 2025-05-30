@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: ecommerce-frontend
-    env: static
-    buildCommand: npm install && npm run build
-    startCommand: static --port $PORT
-    rootDir: /opt/render/project/src/frontend
