@@ -4,4 +4,4 @@ services:
     env: static
     buildCommand: npm install && npm run build
     startCommand: static --port $PORT
-    rootDir: /opt/render/project/src/frontend
+    rootDir: /opt/render/project/frontend
